@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2083EDE53673DED4B526887B /* Pods_TRZXMSSBrowse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB63E934957301CA226137F7 /* Pods_TRZXMSSBrowse.framework */; };
 		B7329AEC1E669F13005D1D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329AEB1E669F13005D1D65 /* main.m */; };
 		B7329AEF1E669F13005D1D65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329AEE1E669F13005D1D65 /* AppDelegate.m */; };
 		B7329AF21E669F13005D1D65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329AF11E669F13005D1D65 /* ViewController.m */; };
@@ -15,6 +16,20 @@
 		B7329AFA1E669F13005D1D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7329AF81E669F13005D1D65 /* LaunchScreen.storyboard */; };
 		B7329B051E669F13005D1D65 /* TRZXMSSBrowseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B041E669F13005D1D65 /* TRZXMSSBrowseTests.m */; };
 		B7329B101E669F13005D1D65 /* TRZXMSSBrowseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B0F1E669F13005D1D65 /* TRZXMSSBrowseUITests.m */; };
+		B7329B391E669F58005D1D65 /* mss_browseLoading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7329B1E1E669F58005D1D65 /* mss_browseLoading@2x.png */; };
+		B7329B3A1E669F58005D1D65 /* mss_browseLoading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7329B1F1E669F58005D1D65 /* mss_browseLoading@3x.png */; };
+		B7329B3B1E669F58005D1D65 /* MSSBrowseActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B211E669F58005D1D65 /* MSSBrowseActionSheet.m */; };
+		B7329B3C1E669F58005D1D65 /* MSSBrowseActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B231E669F58005D1D65 /* MSSBrowseActionSheetCell.m */; };
+		B7329B3D1E669F58005D1D65 /* MSSBrowseBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B251E669F58005D1D65 /* MSSBrowseBaseViewController.m */; };
+		B7329B3E1E669F58005D1D65 /* MSSBrowseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B271E669F58005D1D65 /* MSSBrowseCollectionViewCell.m */; };
+		B7329B3F1E669F58005D1D65 /* MSSBrowseLoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B2A1E669F58005D1D65 /* MSSBrowseLoadingImageView.m */; };
+		B7329B401E669F58005D1D65 /* MSSBrowseLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B2C1E669F58005D1D65 /* MSSBrowseLocalViewController.m */; };
+		B7329B411E669F58005D1D65 /* MSSBrowseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B2E1E669F58005D1D65 /* MSSBrowseModel.m */; };
+		B7329B421E669F58005D1D65 /* MSSBrowseNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B301E669F58005D1D65 /* MSSBrowseNetworkViewController.m */; };
+		B7329B431E669F58005D1D65 /* MSSBrowseRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B321E669F58005D1D65 /* MSSBrowseRemindView.m */; };
+		B7329B441E669F58005D1D65 /* MSSBrowseZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B341E669F58005D1D65 /* MSSBrowseZoomScrollView.m */; };
+		B7329B451E669F58005D1D65 /* UIImage+MSSScale.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B361E669F58005D1D65 /* UIImage+MSSScale.m */; };
+		B7329B461E669F58005D1D65 /* UIView+MSSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B7329B381E669F58005D1D65 /* UIView+MSSLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04989CAB03B2B122B9831CC0 /* Pods-TRZXMSSBrowse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMSSBrowse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMSSBrowse/Pods-TRZXMSSBrowse.debug.xcconfig"; sourceTree = "<group>"; };
+		65E2798BDA7942DA754E3E33 /* Pods-TRZXMSSBrowse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMSSBrowse.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMSSBrowse/Pods-TRZXMSSBrowse.release.xcconfig"; sourceTree = "<group>"; };
 		B7329AE71E669F13005D1D65 /* TRZXMSSBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMSSBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7329AEB1E669F13005D1D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7329AED1E669F13005D1D65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,35 @@
 		B7329B0B1E669F13005D1D65 /* TRZXMSSBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMSSBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7329B0F1E669F13005D1D65 /* TRZXMSSBrowseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMSSBrowseUITests.m; sourceTree = "<group>"; };
 		B7329B111E669F13005D1D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7329B1E1E669F58005D1D65 /* mss_browseLoading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mss_browseLoading@2x.png"; sourceTree = "<group>"; };
+		B7329B1F1E669F58005D1D65 /* mss_browseLoading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mss_browseLoading@3x.png"; sourceTree = "<group>"; };
+		B7329B201E669F58005D1D65 /* MSSBrowseActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseActionSheet.h; sourceTree = "<group>"; };
+		B7329B211E669F58005D1D65 /* MSSBrowseActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseActionSheet.m; sourceTree = "<group>"; };
+		B7329B221E669F58005D1D65 /* MSSBrowseActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseActionSheetCell.h; sourceTree = "<group>"; };
+		B7329B231E669F58005D1D65 /* MSSBrowseActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseActionSheetCell.m; sourceTree = "<group>"; };
+		B7329B241E669F58005D1D65 /* MSSBrowseBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseBaseViewController.h; sourceTree = "<group>"; };
+		B7329B251E669F58005D1D65 /* MSSBrowseBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseBaseViewController.m; sourceTree = "<group>"; };
+		B7329B261E669F58005D1D65 /* MSSBrowseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseCollectionViewCell.h; sourceTree = "<group>"; };
+		B7329B271E669F58005D1D65 /* MSSBrowseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseCollectionViewCell.m; sourceTree = "<group>"; };
+		B7329B281E669F58005D1D65 /* MSSBrowseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseDefine.h; sourceTree = "<group>"; };
+		B7329B291E669F58005D1D65 /* MSSBrowseLoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseLoadingImageView.h; sourceTree = "<group>"; };
+		B7329B2A1E669F58005D1D65 /* MSSBrowseLoadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseLoadingImageView.m; sourceTree = "<group>"; };
+		B7329B2B1E669F58005D1D65 /* MSSBrowseLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseLocalViewController.h; sourceTree = "<group>"; };
+		B7329B2C1E669F58005D1D65 /* MSSBrowseLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseLocalViewController.m; sourceTree = "<group>"; };
+		B7329B2D1E669F58005D1D65 /* MSSBrowseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseModel.h; sourceTree = "<group>"; };
+		B7329B2E1E669F58005D1D65 /* MSSBrowseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseModel.m; sourceTree = "<group>"; };
+		B7329B2F1E669F58005D1D65 /* MSSBrowseNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseNetworkViewController.h; sourceTree = "<group>"; };
+		B7329B301E669F58005D1D65 /* MSSBrowseNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseNetworkViewController.m; sourceTree = "<group>"; };
+		B7329B311E669F58005D1D65 /* MSSBrowseRemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseRemindView.h; sourceTree = "<group>"; };
+		B7329B321E669F58005D1D65 /* MSSBrowseRemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseRemindView.m; sourceTree = "<group>"; };
+		B7329B331E669F58005D1D65 /* MSSBrowseZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSBrowseZoomScrollView.h; sourceTree = "<group>"; };
+		B7329B341E669F58005D1D65 /* MSSBrowseZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSBrowseZoomScrollView.m; sourceTree = "<group>"; };
+		B7329B351E669F58005D1D65 /* UIImage+MSSScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSSScale.h"; sourceTree = "<group>"; };
+		B7329B361E669F58005D1D65 /* UIImage+MSSScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSSScale.m"; sourceTree = "<group>"; };
+		B7329B371E669F58005D1D65 /* UIView+MSSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSSLayout.h"; sourceTree = "<group>"; };
+		B7329B381E669F58005D1D65 /* UIView+MSSLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSSLayout.m"; sourceTree = "<group>"; };
+		BB63E934957301CA226137F7 /* Pods_TRZXMSSBrowse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXMSSBrowse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBAC92715093640A6A0EE40 /* Pods_TRZXMSSBrowseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXMSSBrowseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2083EDE53673DED4B526887B /* Pods_TRZXMSSBrowse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7D57707D39955AC67358ECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04989CAB03B2B122B9831CC0 /* Pods-TRZXMSSBrowse.debug.xcconfig */,
+				65E2798BDA7942DA754E3E33 /* Pods-TRZXMSSBrowse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B7329ADE1E669F13005D1D65 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				B7329B031E669F13005D1D65 /* TRZXMSSBrowseTests */,
 				B7329B0E1E669F13005D1D65 /* TRZXMSSBrowseUITests */,
 				B7329AE81E669F13005D1D65 /* Products */,
+				A7D57707D39955AC67358ECE /* Pods */,
+				FDE6BC14B5DF260F6F33E635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +159,7 @@
 		B7329AE91E669F13005D1D65 /* TRZXMSSBrowse */ = {
 			isa = PBXGroup;
 			children = (
+				B7329B1D1E669F2F005D1D65 /* TRZXMSSBrowse */,
 				B7329AED1E669F13005D1D65 /* AppDelegate.h */,
 				B7329AEE1E669F13005D1D65 /* AppDelegate.m */,
 				B7329AF01E669F13005D1D65 /* ViewController.h */,
@@ -140,6 +199,49 @@
 			path = TRZXMSSBrowseUITests;
 			sourceTree = "<group>";
 		};
+		B7329B1D1E669F2F005D1D65 /* TRZXMSSBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				B7329B1E1E669F58005D1D65 /* mss_browseLoading@2x.png */,
+				B7329B1F1E669F58005D1D65 /* mss_browseLoading@3x.png */,
+				B7329B201E669F58005D1D65 /* MSSBrowseActionSheet.h */,
+				B7329B211E669F58005D1D65 /* MSSBrowseActionSheet.m */,
+				B7329B221E669F58005D1D65 /* MSSBrowseActionSheetCell.h */,
+				B7329B231E669F58005D1D65 /* MSSBrowseActionSheetCell.m */,
+				B7329B241E669F58005D1D65 /* MSSBrowseBaseViewController.h */,
+				B7329B251E669F58005D1D65 /* MSSBrowseBaseViewController.m */,
+				B7329B261E669F58005D1D65 /* MSSBrowseCollectionViewCell.h */,
+				B7329B361E669F58005D1D65 /* UIImage+MSSScale.m */,
+				B7329B271E669F58005D1D65 /* MSSBrowseCollectionViewCell.m */,
+				B7329B281E669F58005D1D65 /* MSSBrowseDefine.h */,
+				B7329B291E669F58005D1D65 /* MSSBrowseLoadingImageView.h */,
+				B7329B2A1E669F58005D1D65 /* MSSBrowseLoadingImageView.m */,
+				B7329B2B1E669F58005D1D65 /* MSSBrowseLocalViewController.h */,
+				B7329B2C1E669F58005D1D65 /* MSSBrowseLocalViewController.m */,
+				B7329B2D1E669F58005D1D65 /* MSSBrowseModel.h */,
+				B7329B2E1E669F58005D1D65 /* MSSBrowseModel.m */,
+				B7329B2F1E669F58005D1D65 /* MSSBrowseNetworkViewController.h */,
+				B7329B301E669F58005D1D65 /* MSSBrowseNetworkViewController.m */,
+				B7329B311E669F58005D1D65 /* MSSBrowseRemindView.h */,
+				B7329B321E669F58005D1D65 /* MSSBrowseRemindView.m */,
+				B7329B331E669F58005D1D65 /* MSSBrowseZoomScrollView.h */,
+				B7329B341E669F58005D1D65 /* MSSBrowseZoomScrollView.m */,
+				B7329B351E669F58005D1D65 /* UIImage+MSSScale.h */,
+				B7329B371E669F58005D1D65 /* UIView+MSSLayout.h */,
+				B7329B381E669F58005D1D65 /* UIView+MSSLayout.m */,
+			);
+			path = TRZXMSSBrowse;
+			sourceTree = "<group>";
+		};
+		FDE6BC14B5DF260F6F33E635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECBAC92715093640A6A0EE40 /* Pods_TRZXMSSBrowseTests.framework */,
+				BB63E934957301CA226137F7 /* Pods_TRZXMSSBrowse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7329B141E669F13005D1D65 /* Build configuration list for PBXNativeTarget "TRZXMSSBrowse" */;
 			buildPhases = (
+				15EA27D047D9354043958C62 /* [CP] Check Pods Manifest.lock */,
 				B7329AE31E669F13005D1D65 /* Sources */,
 				B7329AE41E669F13005D1D65 /* Frameworks */,
 				B7329AE51E669F13005D1D65 /* Resources */,
+				7A1AC6E81C3BFFC6D3A0C99C /* [CP] Embed Pods Frameworks */,
+				6AE586A20C5C0463180FE786 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +354,8 @@
 				B7329AFA1E669F13005D1D65 /* LaunchScreen.storyboard in Resources */,
 				B7329AF71E669F13005D1D65 /* Assets.xcassets in Resources */,
 				B7329AF51E669F13005D1D65 /* Main.storyboard in Resources */,
+				B7329B391E669F58005D1D65 /* mss_browseLoading@2x.png in Resources */,
+				B7329B3A1E669F58005D1D65 /* mss_browseLoading@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +375,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15EA27D047D9354043958C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE586A20C5C0463180FE786 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMSSBrowse/Pods-TRZXMSSBrowse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1AC6E81C3BFFC6D3A0C99C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMSSBrowse/Pods-TRZXMSSBrowse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7329AE31E669F13005D1D65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7329B441E669F58005D1D65 /* MSSBrowseZoomScrollView.m in Sources */,
 				B7329AF21E669F13005D1D65 /* ViewController.m in Sources */,
+				B7329B421E669F58005D1D65 /* MSSBrowseNetworkViewController.m in Sources */,
+				B7329B461E669F58005D1D65 /* UIView+MSSLayout.m in Sources */,
+				B7329B411E669F58005D1D65 /* MSSBrowseModel.m in Sources */,
+				B7329B3B1E669F58005D1D65 /* MSSBrowseActionSheet.m in Sources */,
+				B7329B401E669F58005D1D65 /* MSSBrowseLocalViewController.m in Sources */,
 				B7329AEF1E669F13005D1D65 /* AppDelegate.m in Sources */,
+				B7329B3D1E669F58005D1D65 /* MSSBrowseBaseViewController.m in Sources */,
+				B7329B451E669F58005D1D65 /* UIImage+MSSScale.m in Sources */,
+				B7329B431E669F58005D1D65 /* MSSBrowseRemindView.m in Sources */,
 				B7329AEC1E669F13005D1D65 /* main.m in Sources */,
+				B7329B3C1E669F58005D1D65 /* MSSBrowseActionSheetCell.m in Sources */,
+				B7329B3E1E669F58005D1D65 /* MSSBrowseCollectionViewCell.m in Sources */,
+				B7329B3F1E669F58005D1D65 /* MSSBrowseLoadingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +589,7 @@
 		};
 		B7329B151E669F13005D1D65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04989CAB03B2B122B9831CC0 /* Pods-TRZXMSSBrowse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXMSSBrowse/Info.plist;
@@ -433,6 +601,7 @@
 		};
 		B7329B161E669F13005D1D65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E2798BDA7942DA754E3E33 /* Pods-TRZXMSSBrowse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXMSSBrowse/Info.plist;
@@ -507,6 +676,7 @@
 				B7329B161E669F13005D1D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7329B171E669F13005D1D65 /* Build configuration list for PBXNativeTarget "TRZXMSSBrowseTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +685,7 @@
 				B7329B191E669F13005D1D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7329B1A1E669F13005D1D65 /* Build configuration list for PBXNativeTarget "TRZXMSSBrowseUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +694,7 @@
 				B7329B1C1E669F13005D1D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7329AE61E669F13005D1D65"
+               BuildableName = "TRZXMSSBrowse.app"
+               BlueprintName = "TRZXMSSBrowse"
+               ReferencedContainer = "container:TRZXMSSBrowse.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7329AFF1E669F13005D1D65"
+               BuildableName = "TRZXMSSBrowseTests.xctest"
+               BlueprintName = "TRZXMSSBrowseTests"
+               ReferencedContainer = "container:TRZXMSSBrowse.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7329B0A1E669F13005D1D65"
+               BuildableName = "TRZXMSSBrowseUITests.xctest"
+               BlueprintName = "TRZXMSSBrowseUITests"
+               ReferencedContainer = "container:TRZXMSSBrowse.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B7329AE61E669F13005D1D65"
+            BuildableName = "TRZXMSSBrowse.app"
+            BlueprintName = "TRZXMSSBrowse"
+            ReferencedContainer = "container:TRZXMSSBrowse.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B7329AE61E669F13005D1D65"
+            BuildableName = "TRZXMSSBrowse.app"
+            BlueprintName = "TRZXMSSBrowse"
+            ReferencedContainer = "container:TRZXMSSBrowse.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B7329AE61E669F13005D1D65"
+            BuildableName = "TRZXMSSBrowse.app"
+            BlueprintName = "TRZXMSSBrowse"
+            ReferencedContainer = "container:TRZXMSSBrowse.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
